@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    background-color:dimgrey;
+    font-family: monospace;
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    border-radius: 20px;
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.main{
+    background-color:dimgrey;
+    font-family: monospace;
+    color: white;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 16px;
+}
+input {
+    background-color:aliceblue;
+
+}
+
+button{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+footer{
+    color: white;
+    padding-top: 16px;
+
+}
+
+footer >.footer{
+    background-color:#2a2c2e;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+footer>.footer>.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+footer>.footer>.bottom {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    height: 1px;
+}
+
+#title , #genre , #author , #publisher , #yearPublished , #pages , #language , #name , #email{
+    height: 22px;
+    width: 500px;
+    border-radius: 20px;
+}
